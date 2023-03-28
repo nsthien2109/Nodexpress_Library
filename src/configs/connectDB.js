@@ -1,7 +1,7 @@
 import Sequelize from "sequelize";
 
 
-const sequelize = new Sequelize('database', 'root', '', {
+const sequelize = new Sequelize('todo_list', 'root', '', {
     dialect: 'mysql',
     dialectOptions: {
       // Your mysql2 options here

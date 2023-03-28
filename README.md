@@ -93,15 +93,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 6. cd to `src` open terminal and run
    ```sh
-   sequelize-cli init
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   npx sequelize-cli init
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -123,7 +115,7 @@ Use this space to show useful examples of how a project can be used. Additional 
    ```
 - Run migrate
    ```sh
-   npx sequelize-cli migrate
+   npx sequelize-cli db:migrate
    ```
 4. Run project
    ```env
