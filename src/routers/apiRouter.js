@@ -15,6 +15,7 @@ const initialApiRouter = (app) => {
     router.get('/profile', verifyToken, authController.profile);
     router.post('/upload', uploadFileController.uploadImage);
     router.post('/upload-multiple' , uploadFileController.uploadMultipleImages);
+    router.get('/tasks', taskController.getAllTasks);
     router.post('/task', taskController.createTask);
     return app.use('/api', router);
 }

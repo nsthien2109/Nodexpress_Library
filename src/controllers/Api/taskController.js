@@ -22,7 +22,7 @@ let getAllTasks = async(req, res) =>{
     }).catch((err) => {
         return res.status(412).json({status : "ERR", msg : err});
     });
-}
+} 
 
 let getTask = async(req, res) =>{s
     return res.status.json({status : "OK", data : ""})
